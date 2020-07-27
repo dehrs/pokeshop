@@ -1,4 +1,4 @@
-## PokéMart
+## PokéShop
 
 ![](PokeShop.gif)
 
