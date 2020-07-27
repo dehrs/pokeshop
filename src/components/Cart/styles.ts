@@ -36,6 +36,12 @@ export const Panel = styled.div`
       background: ${shade(0.2, '#d62828')};
     }
   }
+
+  @media (max-width: 800px) {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const Content = styled.div<ContentProps>`

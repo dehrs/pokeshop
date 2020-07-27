@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiCheckCircle, FiX } from 'react-icons/fi';
+import { FiX } from 'react-icons/fi';
+import pikachu from '../../assets/pikachu.png';
 
 import { useModal } from '../../hooks/modal';
 
@@ -26,7 +27,7 @@ const Modal: React.FC<Props> = ({ visible }) => {
               <FiX size={24} color="#fff" />
             </button>
             <ContentHeader>
-              <FiCheckCircle size={80} color="#fff" />
+              <img src={pikachu} alt="pikachu" />
             </ContentHeader>
             <ContentMessage>
               <strong>{messageModal.title}</strong>

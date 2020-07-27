@@ -34,6 +34,11 @@ export const ContentHeader = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
 `;
 
 export const ContentMessage = styled.div`
@@ -49,5 +54,11 @@ export const ContentMessage = styled.div`
   strong {
     font-size: 30px;
     margin-bottom: 5px;
+  }
+
+  @media (max-width: 800px) {
+    strong {
+      font-size: 20px;
+    }
   }
 `;

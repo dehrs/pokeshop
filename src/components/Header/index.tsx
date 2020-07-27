@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from '../../assets/logo.png';
+
 import { NavBar } from './styles';
 
 const Header: React.FC = () => (
